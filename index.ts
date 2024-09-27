@@ -7,5 +7,5 @@ import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
     "https://mainnet.helius-rpc.com/
   ).use(dasApi());
 
-  const assets = umi.rpc.getAss;
+  const assets = umi.rpc.getAssetsByOwner;
 })();
